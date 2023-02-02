@@ -32,8 +32,8 @@ max_num_neighbors: 64
 max_z: 100
 model: equivariant-transformer
 neighbor_embedding: true
-ngpus: -1
-num_epochs: 3000
+ngpus: 0
+num_epochs: 100
 num_heads: 8
 num_layers: 6
 num_nodes: 1
